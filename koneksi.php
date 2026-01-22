@@ -2,6 +2,6 @@
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$database = 'perpustakaan_db';
+$database = 'perpus_c5';
 
 $koneksi = new mysqli($hostname, $username, $password, $database);

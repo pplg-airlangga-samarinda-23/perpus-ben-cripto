@@ -17,9 +17,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-
-
-<h1>tambah data buku</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>tambah data buku</h1>
 
     <form action="" method="post">
         <div class="form-item">
@@ -37,3 +44,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">simpan</button>
     </form>
 
+
+</body>
+</html>

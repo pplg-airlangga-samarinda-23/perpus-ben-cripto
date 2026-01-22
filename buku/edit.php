@@ -22,9 +22,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
 ?>
 
-
-
-<h1>edit data buku</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>edit data buku</h1>
 
     <form action="" method="post">
         <div class="form-item">
@@ -41,3 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         </div>
         <button type="submit">simpan</button>
     </form>
+
+</body>
+</html>
+
